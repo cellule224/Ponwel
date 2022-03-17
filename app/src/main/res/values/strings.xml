@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Ponwel</string>
+    <string name="tab_text_1">Produit I</string>
+    <string name="tab_text_2">Produit II</string>
+    <string name="tab_text_3">Produit III</string>
+    <string name="tab_text_4">Mon compte</string>
+    <string name="action_settings">Nouveau</string>
+    <string name="cart">Panier</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut lectus non tellus lobortis sollicitudin. In id enim non leo facilisis consectetur. Cras sit amet tellus a risus pretium suscipit eget quis arcu. Aliquam egestas sem iaculis diam venenatis, vitae scelerisque mi porttitor.</string>
+
+</resources>

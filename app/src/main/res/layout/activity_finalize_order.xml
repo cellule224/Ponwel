@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <RelativeLayout
+        android:id="@+id/rl_total_topview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:background="@color/colorSecondary"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:id="@+id/order_total_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prix total"
+            android:layout_alignParentRight="true"
+            android:textSize="18sp"
+            android:textColor="#dfdfdf"/>
+
+        <TextView
+            android:id="@+id/tv_checkout_final_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/order_total_txt"
+            android:textSize="26sp"
+            android:textColor="#fff"
+            android:text="0 GNF"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:textColor="#fff"
+            style="@style/MyHeaderTitles"
+            android:text="Panier"/>
+
+    </RelativeLayout>
+
+    <com.shuhart.stepview.StepView
+        android:id="@+id/step_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        app:sv_selectedCircleColor="@color/colorAccent"
+        app:sv_selectedTextColor="@color/colorAccent"
+        app:sv_textPadding="0dp"
+        app:sv_stepLineWidth="2dp"
+        app:sv_stepPadding="4dp"
+        app:sv_nextTextColor="@color/colorAccent"
+        app:sv_nextStepLineColor="@color/colorAccent"
+        app:sv_doneCircleColor="@color/colorAccent"
+        app:sv_doneStepLineColor="@color/colorAccent"
+        app:sv_doneCircleRadius="12dp"
+        app:sv_selectedCircleRadius="12dp"
+        app:sv_selectedStepNumberColor="@color/white_text"
+        app:sv_stepViewStyle="@style/StepView"
+        app:sv_doneStepMarkColor="@color/white_text"
+        app:sv_stepNumberTextSize="12sp"
+        app:sv_animationType="All"
+        app:sv_stepsNumber="3"
+        app:sv_steps="@array/checkout_steps"
+        android:layout_below="@id/rl_total_topview"
+        android:layout_centerHorizontal="true"/>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/checkout_pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/step_view"/>
+
+    <Button
+        android:id="@+id/btn_stepper_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        style="@style/ColoredAdd.Button"
+        android:layout_margin="16dp"
+        android:padding="12dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Suivant"/>
+
+</RelativeLayout>

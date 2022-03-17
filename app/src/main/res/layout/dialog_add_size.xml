@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="160dp"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/et_dialog_add_size"
+        android:layout_width="wrap_content"
+        android:inputType="number"
+        style="@style/EditextStyle"
+        android:background="@drawable/spinner_bg"
+        android:paddingEnd="16dp"
+        android:paddingStart="16dp"
+        android:layout_margin="16dp"
+        android:focusable="true"
+        android:hint="00" />
+
+    <Button
+        android:id="@+id/btn_dialog_add_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/ColoredAdd.Button"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:gravity="center"
+        android:layout_margin="16dp"
+        android:text="Ajouter"/>
+
+</LinearLayout>

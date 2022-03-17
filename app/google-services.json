@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1064476065359",
+    "firebase_url": "https://ponwel-2d35c.firebaseio.com",
+    "project_id": "ponwel-2d35c",
+    "storage_bucket": "ponwel-2d35c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1064476065359:android:f2e619764ea80a14",
+        "android_client_info": {
+          "package_name": "house.thelittlemountaindev.ponwel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1064476065359-qpvaqaj8qqpljcf7cuq9vgr4q0t1k3s7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "house.thelittlemountaindev.ponwel",
+            "certificate_hash": "8940ad3c0155efe8346ebf79d63be568fd14cb65"
+          }
+        },
+        {
+          "client_id": "1064476065359-619ummig3i1h4hb9dccrt51eom1t29r6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0CbHrnr6iSFV2C5XkLFbrGNN99m2zcBk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1064476065359-619ummig3i1h4hb9dccrt51eom1t29r6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

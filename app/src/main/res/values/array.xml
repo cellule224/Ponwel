@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categories">
+        <item>- Catégorie -</item>
+        <item>Pantalons et Bas</item>
+        <item>Chaussures et Sandals</item>
+        <item>Chemises et Tops</item>
+        <item>Accesoires et autres</item>
+        <item>Electroniques et Tech</item>
+        <item>Blings et Bijous</item>
+    </string-array>
+
+    <array name="checkout_steps">
+        <item>Panier</item>
+        <item>Adresse</item>
+        <item>Confirmation</item>
+    </array>
+</resources>
